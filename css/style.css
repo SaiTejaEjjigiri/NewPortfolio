@@ -461,7 +461,17 @@ body{
     height: 100vh;
     background: url(/images/mtn.jpeg) ;
     background-size: cover;
+    background-position: center;
     margin-bottom: 0;
+
+      /* Mobile-specific styles */
+  @media only screen and (max-width: 600px) {
+    body {
+      background-image: url('/images/mtn.jpeg'); /* Replace 'mobile-background.jpg' with the mobile optimized image */
+    }
+  }
+
+
   }
 
   .banner:before{
