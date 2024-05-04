@@ -533,7 +533,7 @@ body{
 /*SVG animation*/
   .contentBox .container{
     position: relative;
-    width:50rem;
+    max-width: 90vw;
     -webkit-transition-delay: all 0.75s;
     transition-delay: all 1s;
   }
@@ -581,7 +581,7 @@ body{
     }
   }
 
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 768px) {
     .contentBox h2{
       font-weight: 800;
       color: #fff;
